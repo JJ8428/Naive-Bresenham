@@ -2,7 +2,7 @@
 #include <math.h>
 using namespace std;
 
-// These the equivalent of the naive Bersenham's Line Algorithm
+// This is the equivalent of the naive Bersenham's Line Algorithm
 void naive_bresenham(int x1, int y1, float theta, float dist) {
     int x2 = round((float) x1 + (dist * cos(theta)));
     int y2 = round((float) y1 + (dist * sin(theta)));
